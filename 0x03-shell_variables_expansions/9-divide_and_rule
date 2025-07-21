@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# Prints the result of dividing POWER by DIVIDE
-
+#!/bin/bash
 echo $((POWER / DIVIDE))
