@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Script to stop 4-to_infinity_and_beyond without using kill or killall
+
+# Find the PID of the process
+pid=$(pgrep -f 4-to_infinity_and_beyond)
+
+# Send SIGTERM using the shell built-in command
+[ -n "$pid" ] && echo "15" > /proc/"$pid"/oom_score_adj
