@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script creates a local variable BEST with the value "School"
+
+local BEST="School"
