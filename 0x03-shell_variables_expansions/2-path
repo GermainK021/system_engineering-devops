@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Adds /action to the end of the PATH variable
+
+export PATH="$PATH:/action"
