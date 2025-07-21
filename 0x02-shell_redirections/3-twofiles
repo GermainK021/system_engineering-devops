@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays the contents of /etc/passwd and /etc/hosts
+
+cat /etc/passwd /etc/hosts
