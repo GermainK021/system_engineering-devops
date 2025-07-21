@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-# This script displays the content of /etc/passwd
+#!/bin/bash
 cat /etc/passwd
