@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# Deletes all regular files with a .js extension in current directory and subdirectories
-
+#!/bin/bash
 find . -type f -name "*.js" -delete
