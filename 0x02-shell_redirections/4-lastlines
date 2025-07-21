@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# This script displays the last 10 lines of /etc/passwd
-
+#!/bin/bash
 tail /etc/passwd
