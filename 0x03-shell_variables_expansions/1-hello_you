@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-# Prints a greeting with the current Linux username
-
+#!/bin/bash
 echo "hello $USER"
