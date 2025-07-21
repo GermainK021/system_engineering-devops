@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Sets file permissions to -rwxr-x-wx for file hello
+chmod 753 hello
