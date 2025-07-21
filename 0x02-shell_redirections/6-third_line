@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays the third line of the file 'iacta' in the current directory
+
+head -n 3 iacta | tail -n 1
